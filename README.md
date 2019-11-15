@@ -28,6 +28,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ]  Explain benefit(s) using `client-side routing`?
 
 > Answer:
+   1. Page reloading prevented during route changes
+   2. Fewer requests to server
 
 ## Project Set Up
 
