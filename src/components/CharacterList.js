@@ -4,7 +4,7 @@ import mockup from "../mockup";
 
 import CharacterCard from "./CharacterCard";
 
-const dev = true;
+const dev = false;
 
 export default function CharacterList({ term }) {
   // TODO: Add useState to track data from useEffect
@@ -25,7 +25,8 @@ export default function CharacterList({ term }) {
         const res = await axios.get(
           "https://rickandmortyapi.com/api/character/"
         );
-        console.log(res.data.results);
+        setCharacters([...res.data.results]);
+        console.log(res);
       }
     })();
   }, []);
