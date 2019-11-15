@@ -1,3 +1,14 @@
 .active {
   color: tomato;
 }
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
